@@ -1,0 +1,14 @@
+{
+  "name": "My ip & Loc",
+  "description": "gets data from ipinfo.io and shows ip,location,ISP",
+  "version": "1.0",
+  "permissions": [
+    "http://www.ipinfo.io/json", "https://www.ipinfo.io/json"
+  ],
+  "browser_action": {
+      "default_title": "My ip & loc.",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
